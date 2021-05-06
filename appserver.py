@@ -22,9 +22,7 @@ def fortune():
     out = "<pre>" + out +"</pre>"
     os.system("re fortune.txt")
     return out
-      # Code that executes the fortune command goes here.
-      # Capture its output and return the output surrounded by the
-      # strings "<pre>" and "</pre>".
+     
 
 @app.route('/cowsay/<message>/')
 def cowsay(message):
@@ -35,9 +33,6 @@ def cowsay(message):
     out2 = "<pre>" + out2 + "</pre>"
     os.system("rm cowsay.txt")
     return out2
-  
-
-      # Code goes here.
 
 
 @app.route('/cowfortune/')

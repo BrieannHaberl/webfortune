@@ -1,4 +1,5 @@
 # Webfortune
+![webfortune](https://github.com/BrieannHaberl/webfortune/actions/workflows/python-app.yml/badge.svg)
 Final project for DevOps
 
 To run you will need python, pytest and docker to install everything else that is needed.
